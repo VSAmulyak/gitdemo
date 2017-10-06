@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 14, 2017 12:16:55 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="Hibernate_CRUD" table="HIBERNATE_CRUD">
+        <id name="cid" type="int">
+            <column name="CID" />
+            <generator class="assigned" />
+        </id>
+        <property name="cname" type="java.lang.String">
+            <column name="CNAME" />
+        </property>
+        <property name="adress" type="java.lang.String">
+            <column name="ADRESS" />
+        </property>
+    </class>
+</hibernate-mapping>
